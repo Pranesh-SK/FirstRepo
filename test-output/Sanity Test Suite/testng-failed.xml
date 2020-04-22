@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sanity Test Suite]">
+  <listeners>
+    <listener class-name="com.flipkart.Extentreports.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="FlipKart web Sanity Test(failed)">
+    <parameter name="URL" value="https://www.flipkart.com/account/login"/>
+    <classes>
+      <class name="sanity.testcases.HomePageTest">
+        <methods>
+          <include name="close"/>
+          <include name="Electronics_Items"/>
+          <include name="browserConfig"/>
+        </methods>
+      </class> <!-- sanity.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- FlipKart web Sanity Test(failed) -->
+</suite> <!-- Failed suite [Sanity Test Suite] -->

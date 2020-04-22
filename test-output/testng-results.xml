@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sanity Test Suite" duration-ms="5049" started-at="2020-04-20T17:20:58 IST" finished-at="2020-04-20T17:21:03 IST">
+    <groups>
+    </groups>
+    <test name="FlipKart web Sanity Test" duration-ms="5049" started-at="2020-04-20T17:20:58 IST" finished-at="2020-04-20T17:21:03 IST">
+      <class name="sanity.testcases.FlipKart_Login">
+        <test-method status="PASS" signature="browserConfig(java.lang.String)[pri:0, instance:sanity.testcases.FlipKart_Login@71bbf57e]" name="browserConfig" is-config="true" duration-ms="4554" started-at="2020-04-20T17:20:58 IST" finished-at="2020-04-20T17:21:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com/account/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserConfig -->
+        <test-method status="PASS" signature="TC_01_login_to_FlipKart()[pri:0, instance:sanity.testcases.FlipKart_Login@71bbf57e]" name="TC_01_login_to_FlipKart" duration-ms="442" started-at="2020-04-20T17:21:03 IST" finished-at="2020-04-20T17:21:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_login_to_FlipKart -->
+      </class> <!-- sanity.testcases.FlipKart_Login -->
+    </test> <!-- FlipKart web Sanity Test -->
+  </suite> <!-- Sanity Test Suite -->
+</testng-results>
